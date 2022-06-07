@@ -2,11 +2,11 @@
 **This app uses node and runs tests with Jest**
 
 1. Run `node app.js` in the terminal and go to `localhost:3000` in the browser
-2. To check the mean - `go to localhost:3000/mean/?nums=` and include a list of comma separated numbers (eg `1,2,3,4,5`)
+2. To check the mean - `go to localhost:3000/mean?nums=` and include a list of comma separated numbers (eg `1,2,3,4,5`)
    - If you include an invalid number or invalid query string, you'll get an error
-3. To check the mode - `go to localhost:3000/mode/?nums=` and include a list of comma separated numbers (eg `1,2,3,4,5`)
+3. To check the mode - `go to localhost:3000/mode?nums=` and include a list of comma separated numbers (eg `1,2,3,4,5`)
    - If you include an invalid number or invalid query string, you'll get an error
-4. To check the median - `go to localhost:3000/median/?nums=` and include a list of comma separated numbers (eg `1,2,3,4,5`)
+4. To check the median - `go to localhost:3000/median?nums=` and include a list of comma separated numbers (eg `1,2,3,4,5`)
    - If you include an invalid number or invalid query string, you'll get an error
 5. To run the tests on the helpers.js functions, run `jest helpers`
 
