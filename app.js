@@ -22,7 +22,7 @@ app.get('/mean', (req, res, next) => {
 
 		return res.send(result);
 	} catch (e) {
-		next(e);
+		return next(e);
 	}
 });
 
@@ -42,7 +42,7 @@ app.get('/median', (req, res, next) => {
 
 		return res.send(result);
 	} catch (e) {
-		next(e);
+		return next(e);
 	}
 });
 
@@ -61,7 +61,7 @@ app.get('/mode', (req, res, next) => {
 		};
 		return res.send(result);
 	} catch (e) {
-		next(e);
+		return next(e);
 	}
 });
 
